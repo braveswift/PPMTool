@@ -2,17 +2,17 @@ package yanhong.ppmtool.exceptions;
 
 public class ProjectIdExceptionResponse {
 
-    private String projectIdentifier;
+    private String exceptionMessage;
 
     public ProjectIdExceptionResponse(String projectIdentifier) {
-        this.projectIdentifier = projectIdentifier;
+        this.exceptionMessage = projectIdentifier;
     }
 
     public String getProjectIdentifier() {
-        return projectIdentifier;
+        return exceptionMessage;
     }
 
     public void setProjectIdentifier(String projectIdentifier) {
-        this.projectIdentifier = projectIdentifier;
+        this.exceptionMessage = projectIdentifier;
     }
 }
