@@ -19,7 +19,7 @@ public class JwtTokenProvider {
     public String generateToken(Authentication authentication) {
         User user = (User)authentication.getPrincipal();
         Date now = new Date(System.currentTimeMillis());
-        Date expireDate = new Date(now.getTime() + EXPIRATION_TIME);
+        Date expireDate = new Date(now.getTime() + 30000);
 
         String userId = Long.toString(user.getId());
 

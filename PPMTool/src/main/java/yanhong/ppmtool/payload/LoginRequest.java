@@ -3,7 +3,7 @@ package yanhong.ppmtool.payload;
 import javax.validation.constraints.NotBlank;
 
 public class LoginRequest {
-    @NotBlank(message = "username is required.")
+    @NotBlank(message = "Username is required.")
     private String username;
     @NotBlank(message = "Password is required.")
     private String password;
