@@ -142,6 +142,7 @@ class UpdateProjectTask extends Component {
                   <input
                     type="date"
                     className="form-control form-control-lg"
+                    placeholder="mm/dd/yyyy"
                     name="dueDate"
                     value={this.state.dueDate}
                     onChange={this.onChange}
